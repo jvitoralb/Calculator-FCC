@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="https://kit.fontawesome.com/2e440afa55.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <main id="main" class="d-flex align-items-center">
+        <div id="calculator" class="container shadow calculator">
+            <div class="row">
+                    <div class="text-end p-0 text-white fs-5 sous-display" id="sous-display"></div>
+                    <div class="text-end p-0 text-white fs-4 display" id="display">0</div>
+                <div class="col py-2 d-flex flex-wrap" id="buttons">
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="C">CE</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="C" id="clear">C</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="D" id="delete">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="*" id="multiply">*</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="8" id="eight">8</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="7" id="seven">7</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="9" id="nine">9</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="/" id="divide">/</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="4" id="four">4</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="5" id="five">5</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="6" id="six">6</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="-" id="subtract">-</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="1" id="one">1</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="2" id="two">2</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="3" id="three">3</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="+" id="add">+</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="+/-" id="+/-">+/-</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="0" id="zero">0</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="." id="decimal">.</button>
+                    <button class="btn btn-light border border-dark fw-semibold operation" value="=" id="equals">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col d-flex justify-content-evenly socials">
+                    <a target="_blank" href="https://github.com/jvitoralb">
+                        <i class="fa-brands fa-github fa-2xl"></i>
+                        
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/jvitor-albuquerque/">
+                        <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/main.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
