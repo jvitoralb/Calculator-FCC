@@ -35,6 +35,11 @@ main {
     background-color: #C9FCE9;
 }
 
+.credits {
+    width: 235px;
+    font-size: 0.8rem;
+}
+
 a {
     text-decoration: none;
     color: #01696b;
